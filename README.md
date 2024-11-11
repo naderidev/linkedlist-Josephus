@@ -64,7 +64,7 @@ By using this interactive application, you can better understand the mechanics o
 
 ## Alternative Access
 
-Users can also visit the application online at [naderidev.ir/sdds](http://naderidev.ir/gg) instead of running it locally.
+Users can also visit the application online at [Here]([http://naderidev.ir/gg](https://naderidev.github.io/linklist-Josephus/)) instead of running it locally.
 
 ## Contributing
 
