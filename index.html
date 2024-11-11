@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="1"> -->
+    <title>Josephus Problem</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        .node {
+            width: 3.5rem;
+            height: 3.5rem;
+            font-size: 10px;
+        }
+        .will-remove{
+            background-color: red!important;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-lg py-3 h-100">
+        <div class="row h-100">
+            <div class="col-12 my-2">
+                <div class="text-center">
+                    <span class="fw-bolder fs-3 d-block">Josephus Problem</span>
+                    <span class="text-muted fs-6">Circular Linked List Representation</span>
+                </div>
+            </div>
+            <div class="col-12 my-5">
+                <div id="rounded-table" class="mx-auto border border-secondary rounded-pill position-relative"
+                    style="height: 25rem; width: 25rem;">
+                    
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="row justify-content-center">
+                    <div class="col-2 m-1">
+                        <input type="number" step="1" class="form-control" id="members-count" placeholder="Members Count">
+                      </div>
+                    <button class="btn m-1 btn-success col-2" onclick="play(this)">
+                        Play
+                    </button>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="row text-center align-items-end h-100">
+                    <div>
+                        <a class="fs-6 fw-bolder d-block text-decoration-none" href="https://github.com/naderidev" >Naderidev</span>
+                        <small class="text-muted d-block fw-light">Developed by</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
